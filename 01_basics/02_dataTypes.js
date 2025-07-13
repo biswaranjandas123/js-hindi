@@ -25,5 +25,5 @@ let isLoggedIn = false   // boolean type data type
 
 //object
 
-console.log(typeof "age");   //out put number
-console.log(typeof null)
+console.log(typeof "age");   //out put number 
+console.log(typeof null);
