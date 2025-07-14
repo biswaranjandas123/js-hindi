@@ -65,10 +65,10 @@ let userOne = {
     email:"user@google.com",
     upi:"user@ybl"
 }
-
-let userTwo = "biswa@google.com"
+let userTwo=userOne
+userTwo.email= "biswa@google.com"
 
 console.log(userOne.email);
-console.log(userTwo);
+console.log(userTwo.email);
 
 
