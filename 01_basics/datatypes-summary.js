@@ -31,4 +31,4 @@ const myFunction = function(){
 }
 console.log(typeof myFunction)    // typeof describe the data type // out put objectfunction
 
-//  https://262.ecma-international.org/5.1/#sec-11.4.3
+//  https://262.ecma-international.org/5.1/#sec-11.4.3  
