@@ -69,6 +69,8 @@ let userTwo=userOne
 userTwo.email= "biswa@google.com"
 
 console.log(userOne.email);
-console.log(userTwo.email);
+console.log(userTwo.email);  
+
+//Her orginal(userOne),copy(userTwo)-----aame userTwo change kalu sethipain userOne chnage hoigala
 
 
