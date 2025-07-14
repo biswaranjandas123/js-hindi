@@ -32,3 +32,43 @@ const myFunction = function(){
 console.log(typeof myFunction)    // typeof describe the data type // out put objectfunction
 
 //  https://262.ecma-international.org/5.1/#sec-11.4.3  
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++MEMORY++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Memory
+//There are two type of memory, 1.stack,2.Heap
+
+//Stack:-
+// All type of Primitive  are store at stack memory
+//ethi copy value ru change hue... Orignal value effect hueni
+
+//Ex- 
+let myYoutubename = "biswaYoutube.com"
+//see how we data change and how the memory read
+let anotherName = myYoutubename
+anotherName = "chai or code"
+console.log(myYoutubename);    //output biswayoutube.com
+console.log(anotherName);      //output chai or code
+//moral of the example --49 r value direct but-- jetebele "let anothename" jaga re myyoutubename lekhili
+//and "anotherNmae" lekhi "chai or code" lekhili 50 r output "chai or code" aasila...
+//  mean copy value change kle copy r value change huchi jemiti another name value change hela but myyoutubename value change helani..
+//  main value not change ....copy value change and store
+
+
+
+//Heap:-
+//All type of Non-primitive are store at Heap memory
+//ethi change kle Original value ru change hue..
+
+//Ex-
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = "biswa@google.com"
+
+console.log(userOne.email);
+console.log(userTwo);
+
+
