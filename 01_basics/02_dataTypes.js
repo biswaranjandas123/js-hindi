@@ -23,7 +23,6 @@ let isLoggedIn = false   // boolean type data type
 //symbol=> (use for unique ness)
 
 
-//object
+//objesct
 
 console.log(typeof "age");   //out put number 
-console.log(typeof null);
