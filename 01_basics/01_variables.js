@@ -10,7 +10,7 @@ accountEmail ="bdjjdihndidlakcj"
 accountPassword = "5444475"
 accountCity = "Bangaluru"
 
-console.log(accountEmail);          //output bdjjdi
+console.log(accountEmail);          //output bdjjdi//
 
 console.table([ accountId, accountEmail, accountPassword, accountCity,accountState]);
 

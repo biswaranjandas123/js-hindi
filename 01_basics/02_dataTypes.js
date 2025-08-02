@@ -19,10 +19,12 @@ let isLoggedIn = false   // boolean type data type
 //string=> " "  (use this single coart or dobule coart  -- best is dobule coart)
 //boolean => true/false  ( always give the answer by the true or false)
 //null =>standalone value (famous and imp) (mean empty)
-//undefine =>  (mean declair variable not valu) example= let state;  her value state name which cannt declaired
+//undefined =>  (mean declair variable not valu) example= let state;  her value state name which cannt declaired
 //symbol=> (use for unique ness)
 
 
 //objesct
 
-console.log(typeof "age");   //out put number 
+console.log(typeof age);   //out put number  
+console.log(typeof null);   //output is object (interview question ) actually null is primitive data type not objectdatatype
+console.log(typeof undefined);  //undefined
