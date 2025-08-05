@@ -1,11 +1,11 @@
 let score = 33          //test and put the value 33,null,undifiend,true and false  what the terminal found show it//
 
-console.log(typeof score);
-console.log(typeof(score));
+console.log(typeof score); //output number   //if the score is "33" ---output string not number
+console.log(typeof(score));  //output number  
 
 let valueInNumber = Number(score)
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+console.log(typeof valueInNumber);   //number   //if the score is"33" then  the output is number
+console.log(valueInNumber);  //33
 
 
 
@@ -23,7 +23,7 @@ console.log(valueInNumber);
 let isLoggedIn = 0
 
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
+console.log(booleanIsLoggedIn);      //output false
 
 // if the value put in isloggedin =0,1,true,false,"","Biswa"
 //Answer will be in terminal = false,true,true,false,false,true respectively..............
@@ -32,8 +32,8 @@ console.log(booleanIsLoggedIn);
 let haveNumber = "33"
 
 let stringHaveNumber = String(haveNumber);
-console.log(stringHaveNumber);
-console.log(typeof(stringHaveNumber))
+console.log(stringHaveNumber);               // output is 33
+console.log(typeof(stringHaveNumber))        // output is string
 
 // Her we found that 33 is a string ...terminal output=33 .
 // ...but when we code console.log(typeof(stringhavenumber)) out put will be string not a number...
@@ -57,8 +57,8 @@ console.log("1"+2+2);     //122
 console.log(1+2+"2");     //32     her the string only 2 1+2=3...so the number is 32
 console.log(1+"2"+2);     //122
 
-
-console.log(+true);   //output = 1
+console.log(+false);  //output = 0
+console.log(+true);   //output = 1               //this three type of code called operative presidence-that's describe about priorety
 console.log(+"");     //output = 0
 
 
