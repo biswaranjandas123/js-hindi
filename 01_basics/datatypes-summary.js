@@ -1,4 +1,4 @@
-//There are two type of data type   1.primitive, 2.Non-primitive or(referencetype)
+ //There are two type of data type   1.primitive, 2.Non-primitive or(referencetype)
 
 //Primitive:-
 // Here 7type of data type;- String, Number, Boolean, Null, Undefined, Symbol, BigInt
